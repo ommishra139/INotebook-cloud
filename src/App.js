@@ -29,8 +29,10 @@ function App() {
     
     <>
     <NoteState>
+      
       <HashRouter>
         <Navbar />
+        
         <Alert alert={alert}/>
         <div className="container">
         <Routes>
@@ -41,6 +43,7 @@ function App() {
         </Routes>
         </div>
       </HashRouter>
+      
       </NoteState>
       {/* <h1>This is Home page of notebook </h1> */}
     </>
