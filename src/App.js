@@ -30,7 +30,7 @@ function App() {
     <>
     <NoteState>
       
-      <HashRouter>
+      <BrowserRouter>
         <Navbar />
         
         <Alert alert={alert}/>
@@ -42,7 +42,7 @@ function App() {
         <Route exact path="/Signup" element={<Signup showAlert={showAlert}/>}/>
         </Routes>
         </div>
-      </HashRouter>
+      </BrowserRouter>
       
       </NoteState>
       {/* <h1>This is Home page of notebook </h1> */}
