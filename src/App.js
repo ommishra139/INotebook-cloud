@@ -26,6 +26,7 @@ function App() {
     }, 1500);
 }
   return (
+    
     <>
     <NoteState>
       <HashRouter>
@@ -37,7 +38,6 @@ function App() {
         <Route exact path="/about" element={<About />}/>
         <Route exact path="/Login" element={<Login showAlert={showAlert}/>}/>
         <Route exact path="/Signup" element={<Signup showAlert={showAlert}/>}/>
-
         </Routes>
         </div>
       </HashRouter>
