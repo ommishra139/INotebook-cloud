@@ -36,7 +36,7 @@ function App() {
         <Alert alert={alert}/>
         <div className="container">
         <Routes>
-        <Route exact path="/INotebook-cloud" element={<Home showAlert={showAlert}/>}/>
+        <Route exact path="/home" element={<Home showAlert={showAlert}/>}/>
         <Route exact path="/about" element={<About />}/>
         <Route exact path="/Login" element={<Login showAlert={showAlert}/>}/>
         <Route exact path="/Signup" element={<Signup showAlert={showAlert}/>}/>
