@@ -30,7 +30,7 @@ function App() {
     <>
     <NoteState>
       
-      <BrowserRouter basename="/INotebook-cloud">
+      <BrowserRouter basename="/home">
         <Navbar />
         
         <Alert alert={alert}/>
