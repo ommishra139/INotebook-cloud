@@ -29,8 +29,8 @@ function App() {
     
     <>
     <NoteState>
-      
-      <BrowserRouter basename="/home">
+      {/* //basename="/home" */}
+      <BrowserRouter >
         <Navbar />
         
         <Alert alert={alert}/>
